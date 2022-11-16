@@ -1,0 +1,403 @@
+*{
+	text-decoration: none;
+	margin: 0px;
+	padding: 0px;
+}
+
+body {
+	margin: 0px; 
+	padding: 0px;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.wrapper {
+	width: 1300px;
+	margin: auto;
+	position: relative;
+}
+
+.logo a {
+	font-size: 50px;
+	font-weight: 90px;
+	font-family: courier;
+	color: white;
+}
+
+.menu {
+	float: right;	
+}
+
+nav {
+	width: 100%;
+	margin: auto;
+	display: flex;
+	line-height: 50px;
+	position: sticky;
+	position: -webkit-sticky;
+	top: 0;
+	background: url("images/kuas.jpg");
+	z-index: 1;
+}
+
+nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+
+/*perubahan*/
+li {
+	float: left;
+}
+
+li a, .dropbtn {
+	display: inline-block;
+	color: white;
+	text-align: center;
+	padding: 0px;
+	text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+	transition: all 0.5s ease;
+}
+
+li .dropdown {
+	display: inline-block;
+}
+
+.dropdown-content {
+	display: none;
+	position: absolute;
+	min-width: 160px;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0, 0.2);
+	z-index: 1px;
+}
+
+.dropdown-content a {
+	color: black;
+	padding: 5px 5px;
+	text-decoration: none;
+	display: block;
+	text-align: left;
+}
+
+.dropdown-content a:hover {
+	background-color: orange; 
+}
+
+.dropdown:hover .dropdown-content {
+	display: block;
+}
+
+h3 {
+	font-size: 30px;
+}
+
+nav ul li {
+	float: left;
+}
+
+nav ul li a {
+	color: white;
+	font-weight: bold;
+	text-align: center;
+	padding: 0px 16px 0px 16px;
+	text-decoration: none;
+}
+
+nav ul li a:hover {
+		text-decoration: underline;
+}
+
+section {
+	margin: auto;
+	display: flex;
+	margin-bottom: 50px;
+}
+
+.kolom {
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+.kolom .deskripsi {
+	font-size: 25px;
+	font-weight: bold;
+	font-family: 'comic sans ms';
+	color: #364f6b;
+}
+
+h2 {
+	font-family: 'comic sans ms';
+	font-weight: 800;
+	font-size: 45px;
+	margin-bottom: 20px;
+	color: #364f6b;
+	width: 100%;
+	line-height: 50px;	
+}
+
+
+h1 {
+	margin: 10px 0px 10px 0px;
+	padding: 10px 0px 10px 0px;
+}
+
+p {
+	margin: 10px 0px 10px 0px;
+	padding: 10px 0px 10px 0px;
+}
+
+/*artikel*/
+
+
+body {
+	background-image: url(images/bg3.jpg);
+	background-size: 1500px;
+}
+
+.grid {
+	display: grid;
+	grid-template-columns: repeat(3,1fr);
+	margin: 80px;
+	align-items: center;
+	grid-gap: 70px;
+}
+
+
+img {
+	object-fit: cover;
+}
+
+.grid > article{
+	box-shadow: 10px 5px 5px 0px black;
+	border-radius: 30px;
+	text-align: center;
+	background: chocolate;
+	transition: transform;
+}
+
+.grid > article{
+	border-top-left-radius: 30px;
+	border-top-right-radius: 30px;
+	/**width: 100%;**/
+}
+
+/**.konten {
+	/**text-transform: uppercase;**/
+	/**cursor: progress;
+}**/
+
+.grid > article:hover {
+	transform: rotate(15deg);
+	transform: scale(0.5); 
+	transform: scale(1.2);
+	/*transform: translate(50px);*/
+}
+
+@import url('https://fonts.googleapis.com/css2? family= Poppins:ital@1 & display=swap');
+*{
+	margin: 0;
+	padding: 0;
+	font-family: 'Poppins', sans-serif;
+	box-sizing: border-box;
+}
+
+html,body{
+	display: grid;
+	height: 100%;
+	width: 100%;
+	place-items:center;
+}
+
+::selection{
+	background:#fa4299;
+	color: #fff;
+}
+
+.wrapper{
+	padding: 20px;
+	border-radius: 5px;	
+}
+
+.wrapper .title-text{
+	display: flex;
+	width: 200px;
+}
+
+/*registration*/
+* {
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+}
+
+.register {
+	width: 500px;
+	height: 680px;
+	top: 50%;
+	left: 50%;
+	padding: 20px 30px;
+	position: rgba(0,0,0, 0.7);
+	color: black;
+	transform: translate(10%, 5%);
+	border: 2px solid black;
+	border-radius: 15px;			
+}
+
+.title {
+	text-align: center;
+	font-size: 38px;
+	margin-bottom: 15px;
+}
+
+.subtitle {
+	text-align: center;
+}
+
+.form {
+	margin-top: 15px;
+}
+
+p {
+	font-weight: none;
+	margin-bottom: 5px;
+}
+
+input {
+	width: 100%;
+	margin-bottom: 20px;
+}
+
+.form-input {
+	height: 40px;
+	background: transparent;
+	color: black;
+	border: none;
+	border-bottom: 1px solid black;
+	outline: none;
+
+}
+
+.terms {
+	text-align: center;
+	font-size: 12px;
+}
+ 
+.btn {
+	height: 40px;
+	background: navy;
+	color: #fff;
+	font-size: 18px;
+	border: 1px solid black;
+	border-radius: 10px;
+	outline: none;
+	transition: 0.5s ease;
+}
+
+.btn:hover {
+	cursor: pointer;
+	background: blue;
+	border: 1px solid skyblue;
+}
+
+.sign-in {
+	color: navy;
+}
+
+.sign-in:hover {
+	color: skyblue;
+}
+
+/*kontak*/
+* {
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+}
+
+.kontak {
+	height: 1800px;
+	top: 50%;
+	left: 50%;
+	padding: 20px 30px;
+	position: rgba(0,0,0, 0.7);
+	transform: translate(-10%, 5%);
+}
+
+h2 {
+	letter-spacing: 0.0rem;
+	cursor: default;
+}
+
+form,
+input,
+textarea,
+button {
+	font-family: inherit;
+	font-size: initial;
+}
+
+.form-group label {
+	display: block;
+	margin: 2rem 0 0.5rem 0;
+}
+
+.form-group input[type="text"],
+.form-group input[type="email"],
+.form-group textarea {
+	width: 200%;
+	padding: 1rem 0.8rem;
+	border: 1px solid rgba(0, 0, 0, 0.2);
+	outline: 0;
+	transition: border 0.15s;
+}
+
+.form-group input[type="text"],
+.form-group input[type="email"],{
+	height: 4.6rem;
+}
+
+.form-group textarea {
+	resize: vertical;
+}
+
+.submit {
+	background: navy;
+	color: white;
+	font-weight: bold;
+	margin-top: 1rem;
+	padding: 1rem 1.5rem;
+	border: none;
+	cursor: pointer;
+	transition: background 0.15s;
+}
+
+.submit:hover {
+	background: rgba(173, 216, 230, 1);
+	color: black;
+
+}
+
+.form-group input[type="text"]:focus,
+.form-group input[type="email"]:focus,
+.form-group textarea:focus {
+	border: 1px solid #1dbcfd;
+}
+
+/*footer*/
+* {
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+}
+
+.footer-copyright {
+	color: black;
+	font-size: 14px;
+	width: 38px;
+}
+
+
