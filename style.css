@@ -35,7 +35,7 @@ nav {
 	position: sticky;
 	position: -webkit-sticky;
 	top: 0;
-	background: url("images/kuas.jpg");
+	background: url("kuas.jpg");
 	z-index: 1;
 }
 
@@ -154,7 +154,7 @@ p {
 
 
 body {
-	background-image: url(images/bg3.jpg);
+	background-image: url(bg3.jpg);
 	background-size: 1500px;
 }
 
